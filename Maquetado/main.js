@@ -1,6 +1,6 @@
 
-banner__img.style.backgroundImage = "url('src/img/4.jpg')";
-banner__avatar.style.backgroundImage = "url('src/img/p1.jpg')";
+banner__img.style.backgroundImage = "url('Maquetado/src/img/4.jpg')";
+banner__avatar.style.backgroundImage = "url('Maquetado/src/img/p1.jpg')";
 
 
 loginBtn = document.getElementById('login-btn');
