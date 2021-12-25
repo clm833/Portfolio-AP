@@ -114,6 +114,7 @@ main {
 section {
     position: relative;
     margin-bottom: 1rem;
+    padding: 0 1rem;
 }
 
 .card {
@@ -211,7 +212,7 @@ footer {
 
 
 .edit-btn {
-    display: none;
+    visibility: hidden;
     position: absolute;
     top: 0.4rem;
     right: 0.4rem;
@@ -229,5 +230,5 @@ footer {
 }
 
 .edit-btn.active {
-    display: initial;
+    visibility: visible;
 }
