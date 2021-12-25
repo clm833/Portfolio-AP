@@ -1,3 +1,8 @@
+
+banner__img.style.backgroundImage = "url('src/img/4.jpg')";
+banner__avatar.style.backgroundImage = "url('src/img/p1.jpg')";
+
+
 loginBtn = document.getElementById('login-btn');
 editBtns = document.getElementsByClassName('edit-btn');
 console.log(editBtns);
@@ -12,7 +17,7 @@ loginBtn.addEventListener('click', (e) => {
     }
     else if (loginBtn.classList.contains('fa-sign-out-alt')) {
         loginBtn.classList.replace('fa-sign-out-alt', 'fa-sign-in-alt');
-        
+
         for (let i = 0; i < editBtns.length; i++) {
             const element = editBtns[i];
             element.classList.remove('active');

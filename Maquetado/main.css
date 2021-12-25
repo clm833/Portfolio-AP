@@ -68,6 +68,7 @@ header nav i:hover {
 }
 
 .banner__img {
+    position: relative;
     align-self: stretch;
     background-color: gray;
     border-radius: 0.2rem;
@@ -113,28 +114,6 @@ main {
 section {
     position: relative;
     margin-bottom: 1rem;
-}
-
-section .edit-btn {
-    display: none;
-    position: absolute;
-    top: 0.4rem;
-    right: 0.4rem;
-
-    padding: 0.5rem;
-    border-radius: 50%;
-    background-color: rgb(35, 161, 0);
-    color: black;
-    font-size: 0.9rem;
-    /* border: 1px solid #ddd; */
-}
-
-section .edit-btn:hover {
-    background-color: rgb(46, 214, 0);
-}
-
-section .edit-btn.active {
-    display: initial;
 }
 
 .card {
@@ -226,4 +205,29 @@ footer {
     color: #ccc;
     margin-top: 1.5rem;
     text-align: center;
+}
+
+/* ___________________________________________COMPONENTS */
+
+
+.edit-btn {
+    display: none;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(35, 161, 0);
+    color: black;
+    font-size: 0.9rem;
+    /* border: 1px solid #ddd; */
+}
+
+.edit-btn:hover {
+    background-color: rgb(46, 214, 0);
+}
+
+.edit-btn.active {
+    display: initial;
 }
