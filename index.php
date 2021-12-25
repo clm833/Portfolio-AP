@@ -1,3 +1,3 @@
 <?php
-require_once("maquetado/index.html");
+require_once("Maquetado/index.html");
 ?>
