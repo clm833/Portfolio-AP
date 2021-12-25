@@ -53,11 +53,13 @@
 
     #about-section {
         margin-top: 1rem;
+        text-align: center;
     }
 
     .name-container {
         display: inline-block;
         padding-left: 0;
         position: unset;
+        text-align: center;
     }
 }
