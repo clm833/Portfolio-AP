@@ -164,6 +164,59 @@ section {
     margin-top: 0.3rem;
 }
 
+/* ___________________________________________EXPERIENCE-SECTION */
+
+.item-container {
+    /* padding: 0.1rem; */
+    /* outline: 1px solid red; */
+
+    padding-left: 0.5rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin-bottom: -0.8rem; */
+}
+
+.item {
+    /* padding: 0.1rem; */
+    /* outline: 1px solid blue; */
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.item-logo {
+
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--bg-color)
+
+}
+
+.item-content {
+    /* padding: 0.2rem; */
+    /* outline: 1px solid green; */
+
+    margin-left: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item h3 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.item h4 {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.item span {
+    font-size: 0.75rem;
+}
 /* ___________________________________________SKILLS-SECTION */
 
 .skills-container {
@@ -172,7 +225,7 @@ section {
     display: grid;
     gap: 1rem;
     grid-auto-rows: 14rem;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 8rem), 1fr));
 
 }
 
@@ -186,9 +239,13 @@ section {
     /* outline: 1px solid red; */
 }
 
+.skill-card span {
+ text-align: center;
+}
+
 /* ___________________________________________FOOTER */
 footer {
-    background-color: var(--nav-color);
+    background-color: var(--card-bg-color);
     color: white;
 
     display: flex;
