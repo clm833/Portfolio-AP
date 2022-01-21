@@ -1,0 +1,30 @@
+#about {
+    margin-top: calc(-0.45*var(--avatar-size));
+    ;
+    padding-bottom: 1rem;
+}
+
+.name-container {
+    display: inline-block;
+    padding-left: 1.5rem;
+    position: relative;
+
+    /* salvaguarda para navegadores que no reconocen calc() */
+    left: 14.8rem;
+
+    left: calc(1.75*var(--avatar-size) + var(--avatar-size)/10);
+
+
+}
+
+.fullname {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 0.3rem;
+}
