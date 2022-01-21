@@ -1,0 +1,40 @@
+nav {
+    background-color: var(--nav-color);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.4rem 2rem;
+}
+
+nav .Logo {
+    flex-grow: 1;
+}
+
+nav img {
+    margin: -1rem 0 -1.4rem 0;
+    height: 3.8rem;
+}
+
+.social-media {
+    border-right: 1px solid white;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    padding-right: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+nav i {
+    color: #ccc;
+    padding: 0.4rem 0.6rem;
+}
+
+nav i:hover {
+    color: #fff;
+    transform: scale(1.2);
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}

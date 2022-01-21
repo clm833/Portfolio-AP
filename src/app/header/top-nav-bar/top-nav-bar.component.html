@@ -1,0 +1,11 @@
+<nav>
+    <div class="Logo">
+            alt="">
+    </div>
+    <div class="social-media">
+        <a *ngFor="let link of socialMediaList|keyvalue" href="{{link.value}}">
+            <i class="fab fa-{{link.key}}"></i>
+        </a>
+    </div>
+    <i id="login-btn" class="fas fa-sign-in-alt"></i>
+</nav>

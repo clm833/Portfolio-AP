@@ -1,0 +1,23 @@
+:host {
+    position: relative;
+    /* salvaguarda para navegadores que no reconocen calc() */
+    width: 8rem;
+    height: 8rem;
+    bottom: 4rem;
+    left: 8rem;
+    margin-bottom: -4.4rem;
+    border: 0.4rem solid var(--bg-color);
+
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    bottom: calc(0.55*var(--avatar-size));
+    left: calc(0.75*var(--avatar-size));
+    margin-bottom: calc(-0.55*var(--avatar-size));
+    border: calc(var(--avatar-size)/20) solid var(--bg-color);
+
+    background-color: rgb(88, 88, 88);
+    border-radius: 50%;
+
+    background-position: center;
+    background-size: cover;
+}
