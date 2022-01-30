@@ -1,0 +1,9 @@
+    <div class="item-container">
+        <app-experience-item 
+        [empresa]="item.empresa" 
+        [puesto]="item.puesto"
+        [fecha]="item.fecha"
+        *ngFor="let item of experiencesList; let i = index"
+        >
+        </app-experience-item>
+    </div>

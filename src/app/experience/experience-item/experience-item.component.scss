@@ -1,0 +1,41 @@
+:host {
+    /* padding: 0.1rem; */
+    /* outline: 1px solid blue; */
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.item-logo {
+
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--bg-color)
+
+}
+
+.item-content {
+    /* padding: 0.2rem; */
+    /* outline: 1px solid green; */
+
+    margin-left: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+h4 {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+span {
+    font-size: 0.75rem;
+}
