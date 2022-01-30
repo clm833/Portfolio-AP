@@ -1,0 +1,9 @@
+<div class="item-container">
+    <app-education-item
+    [titulo]="item.titulo" 
+    [institucion]="item.institucion"
+    [fecha]="item.fecha"
+    *ngFor="let item of educationList; let i = index"
+    >
+    </app-education-item>
+</div>
