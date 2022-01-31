@@ -1,0 +1,10 @@
+<div class="item-container">
+    <app-projects-item 
+    [nombreProyecto]="item.nombreProyecto" 
+    [lenguaje]="item.lenguaje"
+    [link]="item.link"
+    [fecha]="item.fecha"
+    *ngFor="let item of projectsList; let i = index"
+    >
+    </app-projects-item>
+</div>
