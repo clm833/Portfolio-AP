@@ -21,3 +21,16 @@
     background-position: center;
     background-size: cover;
 }
+
+@media (max-width: 768px) {
+    //
+}
+
+@media (max-width: 640px) {
+
+    :host {
+        align-self: center;
+        left: 0;
+    }
+
+}

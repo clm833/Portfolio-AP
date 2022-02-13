@@ -68,3 +68,22 @@ section {
 .edit-btn.active {
     visibility: visible;
 }
+
+
+@media (max-width: 768px) {
+    :root {
+        --avatar-size: 7rem;
+    }
+
+    main {
+        margin: 0 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+
+    main {
+        margin: 0 1rem;
+    }
+
+}

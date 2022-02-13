@@ -28,3 +28,25 @@
     margin: 0;
     margin-top: 0.3rem;
 }
+
+
+@media (max-width: 768px) {
+
+    //
+    
+}
+
+@media (max-width: 640px) {
+
+    #about {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .name-container {
+        display: inline-block;
+        padding-left: 0;
+        position: unset;
+        text-align: center;
+    }
+}
